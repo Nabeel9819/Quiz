@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Dancing+Script');
+
+html,
+body {
+  font-family: "open sans";
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.left
+{
+  float: left;
+  margin-left: 50px;
+}
+.right
+{
+  margin-right: 100px;
+  color: white;
+  float: right;
+}
+.start{
+   background-color: #43cea2;
+  background: #43cea2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #43cea2, #185a9d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #43cea2, #185a9d);
+  color: white;
+}
+
+.dropbtn {
+  background-color: #43cea2;
+  background: #43cea2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #43cea2, #185a9d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #43cea2, #185a9d);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin:10px;
+  margin-top: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd; color:black;}
+
+.start-content a:hover {background-color: #ddd;}
+
+.start:hover .dropdown-content {display: block;}
+
+.start:hover .dropbtn {background-color: #ddd; color:black;}
+
+body {
+  background: #43cea2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #43cea2, #185a9d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #43cea2, #185a9d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   font-family: "open sans";
+}
+
+.heading {
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  font-family: "open sans";
+}
